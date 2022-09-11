@@ -14,7 +14,7 @@ for file in os.listdir('textures'):
             with open(f"textures/{file}/{file2}.mcmeta", "w") as f:
                 f.write(f'{{')
                 f.write(f'\n\t"animation": {{')
-                f.write(f'\n\t"frametime": 4,')
+                f.write(f'\n\t"frametime": 5,')
                 f.write(f'\n\t"frames": [')
                 for x in range(i):
                     f.write(f'\n\t\t{x}')
